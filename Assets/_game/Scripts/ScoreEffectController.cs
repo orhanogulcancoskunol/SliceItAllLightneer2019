@@ -15,7 +15,7 @@ namespace _game.Scripts
         }
 
         public void UpdateScore(int val)
-        {r
+        {
             _score.text = "+" + val;
         }
         

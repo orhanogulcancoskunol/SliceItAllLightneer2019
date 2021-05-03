@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+using _game.Scripts.Managers;
 using UnityEngine;
 
-public class BoostObject : MonoBehaviour
+namespace _game.Scripts.Boosters
 {
-    // Start is called before the first frame update
-    void Start()
+    public abstract class BoostObject : MonoBehaviour
     {
-        
-    }
+        [SerializeField] protected float forceMultiplier = 4;
+        protected virtual void OnTriggerEnter(Collider other)
+        {
+            GetComponent<Collider>().enabled = false;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        protected static void Boost(Vector3 val)
+        {
+            var force = CharacterManager.Instance.CurrentCharacter.GetStaticForceForHit();
+            CharacterManager.Instance.CurrentCharacter.Jump(new Vector3(force.x*val.x,force.y*val.y,force.z*val.z));
+        }
     }
 }

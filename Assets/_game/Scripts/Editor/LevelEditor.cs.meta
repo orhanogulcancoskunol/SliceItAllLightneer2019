@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: a4cdedb65d5aa6f4aad31a04b0ddfb0a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - Platform: {fileID: 1561589751000420054, guid: 12a290a0205595746a493046aef7cd45,
+      type: 3}
+  - WaterGroundPlatform: {fileID: 9150803655491720562, guid: c393dd6926de49845a8ec5f8016ddf84,
+      type: 3}
+  - EndLevelPlatform: {fileID: 1041019465414359344, guid: f7af8c5332af92d4d8c332b9996ee656,
+      type: 3}
+  - CubeObstacle: {fileID: 2117588628671091668, guid: 88a2a0303e05e5d4ab2ffd7063b6c36d,
+      type: 3}
+  - SphereObstacle: {fileID: 6864288540139766228, guid: 1fcca0357ace9db41b6a438e3c945ff4,
+      type: 3}
+  - UnbreakableObstacle: {fileID: 8245302137151103944, guid: c4d3845ca5fa6e94d8c62b3eca63e111,
+      type: 3}
+  - SpeedBoost: {fileID: 2713525144960900284, guid: 192d7437f120cc340bccf6b4c4f9be0f,
+      type: 3}
+  - TrampolineBoost: {fileID: 929376806306739862, guid: 1a10669f1d6401b4b91d4083c7b30033,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -114,7 +114,7 @@ namespace _game.Scripts.Character
 
         public Vector3 GetStaticForceForHit()
         {
-            return staticForce * 2;
+            return staticForce * 1.4f;
         }
 
         public void DisableRotate()

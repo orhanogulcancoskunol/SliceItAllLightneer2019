@@ -44,13 +44,18 @@
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/UI/LevelCompleteCanvasController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Character/SwordScoreController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Platforms/EndLevelPlatform.cs" />
-      <option value="$PROJECT_DIR$/Assets/_game/Scripts/ScoreEffectController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Obstacles/ObstacleController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Obstacles/NotBreakableObstacleController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Platforms/WaterGroundPlatform.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Character/SwordHitController.cs" />
-      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Character/SwordController.cs" />
       <option value="$PROJECT_DIR$/Assets/_game/Scripts/Character/SwordPolishController.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/ScoreEffectController.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Editor/LevelCreator.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Boosters/TrampolineBoostObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Boosters/BoostObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Character/SwordController.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Boosters/SpeedBoostObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/_game/Scripts/Editor/LevelEditor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsRhZKwfFQFti5IQm0Pfdo1vvL" />
@@ -64,6 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -99,6 +105,7 @@
       <workItem from="1619762972631" duration="16430000" />
       <workItem from="1619865554449" duration="8714000" />
       <workItem from="1619951606774" duration="17586000" />
+      <workItem from="1620018882670" duration="7165000" />
     </task>
     <servers />
   </component>

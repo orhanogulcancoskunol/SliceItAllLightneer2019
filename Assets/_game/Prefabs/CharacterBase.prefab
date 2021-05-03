@@ -238,8 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47f06e264ace864193d50292c11a1d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staticForce: {x: 0, y: 1000, z: 150}
-  durationForJump: 1
+  staticForce: {x: 0, y: 1150, z: 175}
+  durationForJump: 1.5
   velocityYLimit: -2
   flyingSpinSpeed: 60
   reJumpSpeed: 360
